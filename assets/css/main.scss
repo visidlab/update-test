@@ -138,3 +138,10 @@ $link-color-visited: #043543;
     grid-template-columns: 1fr;
   }
 }
+.about-gif{
+  display: block;
+  width: 100%;
+  max-width: 720px;  /* ajusta el tamaño */
+  margin: 2.5rem auto;
+  border-radius: 8px;
+}
