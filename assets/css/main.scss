@@ -145,3 +145,31 @@ $link-color-visited: #043543;
   margin: 2.5rem auto;
   border-radius: 8px;
 }
+
+/* =========================
+   ABOUT – simple vertical images
+   ========================= */
+
+.about-gif {
+  display: block;
+  max-width: 100%;
+  margin: 2.5rem auto;
+  border-radius: 16px;
+}
+
+/* vertical image column */
+.about-gallery-column {
+  margin: 3rem auto 0 auto;
+  max-width: 900px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-gallery-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
