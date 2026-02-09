@@ -1,0 +1,11 @@
+---
+layout: single
+---
+
+{% if page.lead-image %}
+  <figure class="page__featured-image">
+    <img src="{{ page.lead-image | relative_url }}" alt="{{ page.lead-image-alt-text | default: page.title }}">
+  </figure>
+{% endif %}
+
+{{ content }}
