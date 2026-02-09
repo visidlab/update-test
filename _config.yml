@@ -228,6 +228,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /news/:path/
 
 # Defaults
 defaults:
@@ -242,6 +245,13 @@ defaults:
       comments: false
       share: false
       related: false
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+      author_profile: false
   # _people (each person gets a page at /team/:name/)
   - scope:
       path: ""
