@@ -1,11 +1,13 @@
 ---
 title: "News"
 permalink: /news/
-layout: posts
-entries_layout: list
+layout: archive
+entries_layout: grid
 ---
 
 {% assign posts = site.news | default: site.posts | sort: "date" | reverse %}
-{% for post in posts %}
-  {% include archive-single.html type="news" %}
-{% endfor %}
+<div class="entries-{{ page.entries_layout | default: 'grid' }}">
+  {% for post in posts %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+</div>
