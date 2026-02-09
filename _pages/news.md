@@ -5,7 +5,7 @@ layout: posts
 entries_layout: list
 ---
 
-{% assign posts = site.news | sort: "date" | reverse %}
+{% assign posts = site.news | default: site.posts | sort: "date" | reverse %}
 {% for post in posts %}
   {% include archive-single.html type="news" %}
 {% endfor %}
