@@ -6,7 +6,7 @@ last_name: "Akbaba"
 title: "Derya Akbaba"          # display name
 
 # Role & grouping
-role: student                  # faculty | student | guest | alumni
+role: alumni                  # faculty | student | guest | alumni
 role_title: "PhD Student"
 grad_year:
 
