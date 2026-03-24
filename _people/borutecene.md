@@ -6,7 +6,7 @@ last_name: Börütecene
 title: "Ahmet Börütecene"
 
 # Role & grouping
-role: faculty
+role: alumni
 role_title: "Assistant Professor"
 grad_year:
 
